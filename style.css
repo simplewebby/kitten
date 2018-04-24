@@ -1,0 +1,59 @@
+body {
+    height: 1000px;
+    background: linear-gradient(0deg,#cea554, #efcf8f );
+}
+
+
+.container {
+    
+    background-color: white;
+    margin: 30px;
+    padding: 20px;
+    box-shadow: 5px 10px 8px #888;
+    
+
+}
+h1 {
+    text-align: center;
+    margin-left:150px;
+    padding: 30px;
+    color: black;
+    
+
+}
+.name{
+    height: 30%;
+    width: 100%;
+    background-image: url("kitten.png");
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+h2 {
+    color: #cea554;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar{
+    margin-left: 35%;
+   text-align: center;
+}
+a:hover{
+    color: #cea554;
+}
